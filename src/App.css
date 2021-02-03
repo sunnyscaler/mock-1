@@ -1,0 +1,43 @@
+.container {
+  margin: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  position: relative;
+}
+.row__col {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+.row__col--right p {
+  padding-left: 2rem;
+}
+
+.row__col__title {
+  text-align: left;
+  font-weight: bold;
+}
+.row__col__subtitle {
+  text-align: left;
+}
+.step-marker {
+  position: absolute;
+  background-color: green;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row__col--border-red {
+  border-right: 5px solid red;
+}
