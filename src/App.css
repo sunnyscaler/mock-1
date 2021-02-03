@@ -12,9 +12,11 @@ h1 {
 }
 .row__col {
   flex: 1;
-  justify-content: center;
-  align-items: center;
   padding: 1rem 0 1rem 0;
+}
+.row__col--right {
+  display: flex;
+  align-items: center;
 }
 .row__col--right p {
   padding-left: 2rem;
