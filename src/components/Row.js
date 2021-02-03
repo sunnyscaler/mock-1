@@ -9,7 +9,7 @@ const Row =  ()=> {
             </div>
             <div className='step-marker' />
             <div className="row__col row__col--right">
-                <p className="row__col__title">12th October, 2019 & 13th October, 2019</p>
+                <p className="row__col__title">Onboarding webniar</p>
             </div>
         </div>
     )
